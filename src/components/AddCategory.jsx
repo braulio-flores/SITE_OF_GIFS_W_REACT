@@ -22,7 +22,7 @@ const AddCategory = ({ setCategories }) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <label htmlFor="">Buscar y Agregar Categoria </label>
+      <label htmlFor="">Search and add category </label>
       <input type="text" value={ inputValue } onChange={handleInputChange} />
       <button> Add </button>
     </form>
